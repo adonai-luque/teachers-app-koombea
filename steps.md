@@ -2,3 +2,4 @@
 
 rails new teachers-app-koombea --database=postgresql
 rails g scaffold course title:string description:text
+rails g scaffold lesson course:references title:string content:text
